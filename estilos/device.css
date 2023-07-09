@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Paleta de Cores
+    Verde: #49a09d
+    Lilás: 5f2c82
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+section#login > div#image {
+    background-color: #5f2c82;
+    background-image: url(../imagens/pexels-tom-fisk-3214186.jpg);
+    height: 200px;
+
+}
+
+section#login {
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+}
+
+section#login h1 {
+    text-align: center;
+    margin: 10px
+}
+
+section#login p {
+    text-align: justify;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+}
+
+form div {
+    background-color: #823cb1;
+    width: 85%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+div.campo .material-icons {
+    color: white;
+    width: 40px;
+}
+
+div input {
+    width: calc(100% - 49px);
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    transform: translateY(3px);
+}
+
+
+
+input[type=submit] {
+    width: 100%;
+    background-color:#49a09d;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
